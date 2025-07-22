@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <title>Nhận Link TeraBox</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { text-align: center; font-family: Arial, sans-serif; }
+    .button { 
+      display: inline-block; 
+      padding: 10px 20px; 
+      background-color: #ff5733; 
+      color: white; 
+      text-decoration: none; 
+      border-radius: 5px; 
+      margin: 20px; 
+    }
+  </style>
+</head>
+<body>
+  <h1>Nhận Link TeraBox</h1>
+  <p>Vui lòng nhấp vào link Shopee dưới đây để xem sản phẩm:</p>
+  <a href="https://s.shopee.vn/5VKXf45Rcm" target="_blank" class="button">Xem trên Shopee</a>
+  <p>Sau 10 giây, bạn sẽ được chuyển hướng đến link TeraBox.</p>
+  <script>
+    setTimeout(function() {
+      window.location.href = "https://1024terabox.com/s/1VTe9HUmACAHfXQAQJr_Tsg";
+    }, 10000); // Chuyển hướng sau 10 giây
+  </script>
+</body>
+</html>
